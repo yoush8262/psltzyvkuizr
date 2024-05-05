@@ -1,0 +1,614 @@
+2016-04-20 11:49:04 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @/frontend/controllers/TestController' in C:\AppServ\www\gstest\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 C:\AppServ\www\gstest\vendor\yiisoft\yii2-gii\generators\controller\Generator.php(190): yii\BaseYii::getAlias('@/frontend/cont...')
+#1 C:\AppServ\www\gstest\vendor\yiisoft\yii2-gii\generators\controller\Generator.php(159): yii\gii\generators\controller\Generator->getControllerFile()
+#2 C:\AppServ\www\gstest\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(50): yii\gii\generators\controller\Generator->generate()
+#3 [internal function]: yii\gii\controllers\DefaultController->actionView('controller')
+#4 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#7 C:\AppServ\www\gstest\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii/default/vie...', Array)
+#8 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\AppServ\www\gstest\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-04-20 11:49:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'controller'
+]
+
+$_POST = [
+    '_csrf' => 'dmo0SHlCV0MzHUN.KQsNdDAZDRodIxEaIw9FeSsLIBIPDncbMxoCLw=='
+    'Generator' => [
+        'controllerClass' => '\\frontend\\controllers\\TestController'
+        'actions' => 'index'
+        'viewPath' => ''
+        'baseClass' => 'yii\\web\\Controller'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0bf6ph5ljp7n57fhl2pi5jsle4'
+    '_csrf' => '352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '283'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://127.0.0.1/gstest/frontend/web/index.php?r=gii%2Fdefault%2Fview&id=controller'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.8,en-US;q=0.6,th;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=0bf6ph5ljp7n57fhl2pi5jsle4; _csrf=352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/AppServ/www/gstest/frontend/web/index.php'
+    'REMOTE_PORT' => '56377'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=controller'
+    'REQUEST_URI' => '/gstest/frontend/web/index.php?r=gii%2Fdefault%2Fview&id=controller'
+    'SCRIPT_NAME' => '/gstest/frontend/web/index.php'
+    'PHP_SELF' => '/gstest/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461127744.288
+    'REQUEST_TIME' => 1461127744
+]
+2016-04-20 12:03:00 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\AppServ\www\gstest\frontend\views\test\test1.php' in C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\AppServ\\www\\...', Array, Object(frontend\controllers\TestController))
+#1 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('test1', Array, Object(frontend\controllers\TestController))
+#2 C:\AppServ\www\gstest\frontend\controllers\TestController.php(14): yii\base\Controller->render('test1')
+#3 [internal function]: frontend\controllers\TestController->actionTest1()
+#4 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('test1', Array)
+#7 C:\AppServ\www\gstest\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('test/test1', Array)
+#8 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\AppServ\www\gstest\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-04-20 12:03:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'test/test1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0bf6ph5ljp7n57fhl2pi5jsle4'
+    '_csrf' => '352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.8,en-US;q=0.6,th;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=0bf6ph5ljp7n57fhl2pi5jsle4; _csrf=352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/AppServ/www/gstest/frontend/web/index.php'
+    'REMOTE_PORT' => '59042'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/test1'
+    'REQUEST_URI' => '/gstest/frontend/web/index.php?r=test/test1'
+    'SCRIPT_NAME' => '/gstest/frontend/web/index.php'
+    'PHP_SELF' => '/gstest/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461128580.222
+    'REQUEST_TIME' => 1461128580
+]
+2016-04-20 12:03:51 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\AppServ\www\gstest\frontend\views\test\test1.php' in C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\AppServ\\www\\...', Array, Object(frontend\controllers\TestController))
+#1 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('test1', Array, Object(frontend\controllers\TestController))
+#2 C:\AppServ\www\gstest\frontend\controllers\TestController.php(14): yii\base\Controller->render('test1')
+#3 [internal function]: frontend\controllers\TestController->actionTest1()
+#4 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('test1', Array)
+#7 C:\AppServ\www\gstest\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('test/test1', Array)
+#8 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\AppServ\www\gstest\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-04-20 12:03:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'test/test1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0bf6ph5ljp7n57fhl2pi5jsle4'
+    '_csrf' => '352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.8,en-US;q=0.6,th;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=0bf6ph5ljp7n57fhl2pi5jsle4; _csrf=352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/AppServ/www/gstest/frontend/web/index.php'
+    'REMOTE_PORT' => '57905'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/test1'
+    'REQUEST_URI' => '/gstest/frontend/web/index.php?r=test/test1'
+    'SCRIPT_NAME' => '/gstest/frontend/web/index.php'
+    'PHP_SELF' => '/gstest/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461128631.566
+    'REQUEST_TIME' => 1461128631
+]
+2016-04-20 12:03:52 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\AppServ\www\gstest\frontend\views\test\test1.php' in C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\AppServ\\www\\...', Array, Object(frontend\controllers\TestController))
+#1 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('test1', Array, Object(frontend\controllers\TestController))
+#2 C:\AppServ\www\gstest\frontend\controllers\TestController.php(14): yii\base\Controller->render('test1')
+#3 [internal function]: frontend\controllers\TestController->actionTest1()
+#4 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('test1', Array)
+#7 C:\AppServ\www\gstest\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('test/test1', Array)
+#8 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\AppServ\www\gstest\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-04-20 12:03:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'test/test1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0bf6ph5ljp7n57fhl2pi5jsle4'
+    '_csrf' => '352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.8,en-US;q=0.6,th;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=0bf6ph5ljp7n57fhl2pi5jsle4; _csrf=352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/AppServ/www/gstest/frontend/web/index.php'
+    'REMOTE_PORT' => '57906'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/test1'
+    'REQUEST_URI' => '/gstest/frontend/web/index.php?r=test/test1'
+    'SCRIPT_NAME' => '/gstest/frontend/web/index.php'
+    'PHP_SELF' => '/gstest/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461128632.605
+    'REQUEST_TIME' => 1461128632
+]
+2016-04-20 12:03:53 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\AppServ\www\gstest\frontend\views\test\test1.php' in C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\AppServ\\www\\...', Array, Object(frontend\controllers\TestController))
+#1 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('test1', Array, Object(frontend\controllers\TestController))
+#2 C:\AppServ\www\gstest\frontend\controllers\TestController.php(14): yii\base\Controller->render('test1')
+#3 [internal function]: frontend\controllers\TestController->actionTest1()
+#4 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('test1', Array)
+#7 C:\AppServ\www\gstest\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('test/test1', Array)
+#8 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\AppServ\www\gstest\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-04-20 12:03:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'test/test1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0bf6ph5ljp7n57fhl2pi5jsle4'
+    '_csrf' => '352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.8,en-US;q=0.6,th;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=0bf6ph5ljp7n57fhl2pi5jsle4; _csrf=352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/AppServ/www/gstest/frontend/web/index.php'
+    'REMOTE_PORT' => '57908'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/test1'
+    'REQUEST_URI' => '/gstest/frontend/web/index.php?r=test/test1'
+    'SCRIPT_NAME' => '/gstest/frontend/web/index.php'
+    'PHP_SELF' => '/gstest/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461128633.309
+    'REQUEST_TIME' => 1461128633
+]
+2016-04-20 12:03:54 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\AppServ\www\gstest\frontend\views\test\test1.php' in C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\AppServ\\www\\...', Array, Object(frontend\controllers\TestController))
+#1 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('test1', Array, Object(frontend\controllers\TestController))
+#2 C:\AppServ\www\gstest\frontend\controllers\TestController.php(14): yii\base\Controller->render('test1')
+#3 [internal function]: frontend\controllers\TestController->actionTest1()
+#4 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('test1', Array)
+#7 C:\AppServ\www\gstest\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('test/test1', Array)
+#8 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\AppServ\www\gstest\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-04-20 12:03:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'test/test1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0bf6ph5ljp7n57fhl2pi5jsle4'
+    '_csrf' => '352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.8,en-US;q=0.6,th;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=0bf6ph5ljp7n57fhl2pi5jsle4; _csrf=352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/AppServ/www/gstest/frontend/web/index.php'
+    'REMOTE_PORT' => '57909'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/test1'
+    'REQUEST_URI' => '/gstest/frontend/web/index.php?r=test/test1'
+    'SCRIPT_NAME' => '/gstest/frontend/web/index.php'
+    'PHP_SELF' => '/gstest/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461128633.997
+    'REQUEST_TIME' => 1461128633
+]
+2016-04-20 12:03:54 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\AppServ\www\gstest\frontend\views\test\test1.php' in C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\AppServ\\www\\...', Array, Object(frontend\controllers\TestController))
+#1 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('test1', Array, Object(frontend\controllers\TestController))
+#2 C:\AppServ\www\gstest\frontend\controllers\TestController.php(14): yii\base\Controller->render('test1')
+#3 [internal function]: frontend\controllers\TestController->actionTest1()
+#4 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('test1', Array)
+#7 C:\AppServ\www\gstest\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('test/test1', Array)
+#8 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\AppServ\www\gstest\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-04-20 12:03:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'test/test1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0bf6ph5ljp7n57fhl2pi5jsle4'
+    '_csrf' => '352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.8,en-US;q=0.6,th;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=0bf6ph5ljp7n57fhl2pi5jsle4; _csrf=352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/AppServ/www/gstest/frontend/web/index.php'
+    'REMOTE_PORT' => '57910'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/test1'
+    'REQUEST_URI' => '/gstest/frontend/web/index.php?r=test/test1'
+    'SCRIPT_NAME' => '/gstest/frontend/web/index.php'
+    'PHP_SELF' => '/gstest/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461128634.573
+    'REQUEST_TIME' => 1461128634
+]
+2016-04-20 12:03:55 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\AppServ\www\gstest\frontend\views\test\test1.php' in C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\AppServ\\www\\...', Array, Object(frontend\controllers\TestController))
+#1 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('test1', Array, Object(frontend\controllers\TestController))
+#2 C:\AppServ\www\gstest\frontend\controllers\TestController.php(14): yii\base\Controller->render('test1')
+#3 [internal function]: frontend\controllers\TestController->actionTest1()
+#4 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('test1', Array)
+#7 C:\AppServ\www\gstest\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('test/test1', Array)
+#8 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\AppServ\www\gstest\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-04-20 12:03:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'test/test1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0bf6ph5ljp7n57fhl2pi5jsle4'
+    '_csrf' => '352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.8,en-US;q=0.6,th;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=0bf6ph5ljp7n57fhl2pi5jsle4; _csrf=352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/AppServ/www/gstest/frontend/web/index.php'
+    'REMOTE_PORT' => '57911'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/test1'
+    'REQUEST_URI' => '/gstest/frontend/web/index.php?r=test/test1'
+    'SCRIPT_NAME' => '/gstest/frontend/web/index.php'
+    'PHP_SELF' => '/gstest/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461128635.037
+    'REQUEST_TIME' => 1461128635
+]
+2016-04-20 12:05:06 [127.0.0.1][-][0bf6ph5ljp7n57fhl2pi5jsle4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: test/test' in C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('test', Array)
+#1 C:\AppServ\www\gstest\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('test/test', Array)
+#2 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\AppServ\www\gstest\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\AppServ\www\gstest\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\AppServ\www\gstest\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\AppServ\www\gstest\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-20 12:05:06 [127.0.0.1][-][0bf6ph5ljp7n57fhl2pi5jsle4][info][application] $_GET = [
+    'r' => 'test/test'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0bf6ph5ljp7n57fhl2pi5jsle4'
+    '_csrf' => '352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qeuolm'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/gstest/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.8,en-US;q=0.6,th;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=0bf6ph5ljp7n57fhl2pi5jsle4; _csrf=352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/AppServ/www/gstest/frontend/web/index.php'
+    'REMOTE_PORT' => '57964'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/test'
+    'REQUEST_URI' => '/gstest/frontend/web/index.php?r=test/test'
+    'SCRIPT_NAME' => '/gstest/frontend/web/index.php'
+    'PHP_SELF' => '/gstest/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461128706.016
+    'REQUEST_TIME' => 1461128706
+]
+2016-04-20 12:57:22 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '" = "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'' in C:\AppServ\www\gstest\frontend\views\test\test1.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-20 12:57:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'test/test1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0bf6ph5ljp7n57fhl2pi5jsle4'
+    '_csrf' => '352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.8,en-US;q=0.6,th;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=0bf6ph5ljp7n57fhl2pi5jsle4; _csrf=352933a4319e1f8261639e02eb1435fce7cd1f7ffaaee3c358608f34f8ab63b9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Eww6PIZ7Fs9RdaFYUeq1RIwQydCSJXUl%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/AppServ/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/AppServ/www/gstest/frontend/web/index.php'
+    'REMOTE_PORT' => '62760'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/test1'
+    'REQUEST_URI' => '/gstest/frontend/web/index.php?r=test/test1'
+    'SCRIPT_NAME' => '/gstest/frontend/web/index.php'
+    'PHP_SELF' => '/gstest/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461131841.994
+    'REQUEST_TIME' => 1461131841
+]
